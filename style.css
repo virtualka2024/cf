@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #432818; /* Темно-коричневый цвет текста */
+  background: #f3e9e7; /* Бежевый фон */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 48%;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  background: #fff; /* Белый фон блока товара */
+  border: 2px solid #432818; /* Темно-коричневая граница блока товара */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень блока товара */
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Закругленные углы изображения */
+}
+
+.price, .btn {
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #432818; /* Темно-коричневая граница кнопки */
+  background: #432818; /* Темно-коричневый фон кнопки */
+  color: #fff; /* Белый текст кнопки */
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: background 0.2s linear;
+}
+
+.btn:hover {
+  background: #6b4f3b; /* Темно-коричневый фон кнопки при наведении */
+}
+
+.usercard {
+  text-align: center;
+}
