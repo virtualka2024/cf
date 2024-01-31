@@ -1,57 +1,36 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
-}
-
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.inner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .item {
-  box-sizing: border-box;
-  width: 48%;
-  margin-bottom: 20px;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
   text-align: center;
+  margin: 20px;
 }
 
-.item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+.img {
+  width: 250px; /* Ширина картинки */
+  height: 150px; /* Высота картинки */
+ 
+  border: 1px solid black;
 }
 
 .price {
-  margin: 10px 0;
-  font-weight: bold;
-  color: #ff6347;
-  border: 1px solid #ff6347;
-  border-radius: 5px;
+  color: black;
+  border: 1px solid black;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .btn {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
+  background-color: lightblue; /* Нежно-голубой цвет кнопки */
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #add8e6; /* Нежно-голубой цвет кнопки при наведении */
 }
